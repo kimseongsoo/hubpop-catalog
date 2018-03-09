@@ -35,18 +35,18 @@ catalog:
 #    required: true
 #    default: ""
 #    type: "password"
-  - variable: "VOLUME_DRIVER"
-    description: "The VOLUME driver to associate with this server"
-    label: "VOLUME Driver"
-    required: true
-    default: "rancher-nfs"
-    type: enum
-    options:
-       - /WORK/srv/redmine   
- #     - local
- #     - rancher-nfs
- #     - rancher-efs
- #     - rancher-ebs
+#  - variable: "VOLUME_DRIVER"
+#    description: "The VOLUME driver to associate with this server"
+#    label: "VOLUME Driver"
+#    required: true
+#    default: "rancher-nfs"
+#    type: enum
+#    options:
+#       - /WORK/srv/redmine   
+#      - local
+#      - rancher-nfs
+#      - rancher-efs
+#      - rancher-ebs
 
 services:
   redmine:
