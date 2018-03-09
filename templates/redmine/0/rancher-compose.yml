@@ -1,6 +1,5 @@
-#version: '2'
-#catalog:
-.catalog:
+version: '2'
+catalog:
   name: Redmine
   version: 0.1.2
   description: |
