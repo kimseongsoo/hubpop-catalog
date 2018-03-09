@@ -5,13 +5,14 @@ services:
     labels:
       io.rancher.container.hostname_override: container_name
       io.rancher.container.pull_image: always
-#      traefik.enable: true
-#      traefik.alias: ${REDMINE_HOST}
-#      traefik.domain: ${REDMINE_DOMAIN}
-#      traefik.acme: true
+      traefik.enable: true
+      traefik.alias: ${REDMINE_HOST}
+      traefik.domain: ${REDMINE_DOMAIN}
+      traefik.acme: true
 #      traefik.port: 80
+      traefik.port: 45678
     environment:
-    - PORT=45678:80
+    - PORT=80
 #    - TZ=${TZ}
     - DB_PASS=${DB_PASS}
     - DB_ADAPTER=mysql2
