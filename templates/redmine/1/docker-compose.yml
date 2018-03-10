@@ -14,7 +14,8 @@ services:
 #      traefik.port: 80
 #      traefik.port: 45678  
     environment:
-    - REDMINE_PORT=45678
+#    - REDMINE_PORT=45678
+    - PORT=80
 #    - TZ=${TZ}
     - DB_PASS=${DB_PASS}
     - DB_ADAPTER=mysql2
