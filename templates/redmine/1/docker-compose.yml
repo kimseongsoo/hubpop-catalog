@@ -11,7 +11,8 @@ services:
 #      traefik.acme: true
 #      traefik.port: 80
 #      traefik.port: 45678
-    ports: 45678:80  
+    ports: 
+      - 45678:80  
     environment:
     - REDMINE_PORT=45678
 #    - TZ=${TZ}
