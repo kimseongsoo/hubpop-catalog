@@ -1,21 +1,7 @@
 version: '2'
+
 services:
-  redmine:
-    image: redmine
-    ports:
-    - '45678:3000'
-    labels:
-      io.rancher.container.hostname_override: container_name
-      io.rancher.container.pull_image: always
-    environment:
-    - REDMINE_DB_MYSQL=dbredmine
-    - REDMINE_DB_USERNAME=redmine
-    - REDMINE_DB_PASSWORD=redmine
-    - REDMINE_DB_DATABASE=redmine
-    volumes:
-#      - /WORK/srv/redmine:/home/redmine/data
-      - /WORK/srv/redmine:/usr/src/redmine
-      - /WORK/logs/redmine:/var/log/redmine
+
   dbredmine:
     image: mysql:5.7
     ports:
@@ -29,5 +15,19 @@ services:
     - MYSQL_DATABASE=redmine
     - MYSQL_USER=redmine
     - MYSQL_PASSWORD=redmine
-#    command: ["--character-set-server=utf8", "--collation-server=utf8_unicode_ci"] 
     
+  redmine:
+    image: redmine
+    ports:
+    - '45678:3000'
+    labels:
+      io.rancher.container.hostname_override: container_name
+      io.rancher.container.pull_image: always
+    environment:
+    - REDMINE_DB_MYSQL=dbredmine
+    - REDMINE_DB_USERNAME=redmine
+    - REDMINE_DB_PASSWORD=redmine
+    - REDMINE_DB_DATABASE=redmine
+    volumes:
+      - /WORK/srv/redmine:/usr/src/redmine
+      - /WORK/logs/redmine:/var/log/redmine
