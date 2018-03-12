@@ -4,7 +4,7 @@ services:
   mysql:
     image: sameersbn/mysql:latest
     ports:
-    - "29876:3306"
+    - "49876:3306"
     environment:
     - DB_USER=redmine
     - DB_PASS=password
@@ -21,7 +21,7 @@ services:
 
     - DB_ADAPTER=mysql2
     - DB_HOST=mysql
-    - DB_PORT=29876
+    - DB_PORT=49876
     - DB_USER=redmine
     - DB_PASS=password
     - DB_NAME=redmine_production
@@ -30,7 +30,7 @@ services:
     - REDMINE_HTTPS=false
     
     ports:
-    - "49876:80"
+    - "45678:80"
     volumes:
     - /WORK/srv/redmine:/home/redmine/data
     - /WORK/logs/redmine:/var/log/redmine
