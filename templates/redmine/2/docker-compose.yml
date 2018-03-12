@@ -24,7 +24,7 @@ services:
     - DB_PASS=password
     - DB_NAME=redmine_production
 
-    - REDMINE_PORT=10083
+    - REDMINE_PORT=23456
     - REDMINE_HTTPS=false
     
     ports:
