@@ -14,7 +14,7 @@ catalog:
   - variable: "REDMINE_DOMAIN"
     description: "Domain to use for the Redmine server"
     label: "REDMINE Domain"
-    required: true
+    required: false
     default: ""
     type: "string"
 #  - variable: "TZ"
@@ -26,7 +26,7 @@ catalog:
   - variable: "DB_PASS"
     description: "Database Password to use for the server"
     label: "DB Password"
-    required: true
+    required: false
     default: ""
     type: "password"
 #  - variable: "REDMINE_SECRET_TOKEN"
