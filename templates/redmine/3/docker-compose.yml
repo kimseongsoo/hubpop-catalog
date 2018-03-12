@@ -14,7 +14,7 @@ services:
       MYSQL_PASSWORD: redmine
     volumes:
       - '/WORK/data/redmine/db:/var/lib/mysql'
-    command: --character-set-server=utf8 --collation-server=utf8_unicode_ci  
+    command: ["--character-set-server=utf8", "--collation-server=utf8_unicode_ci"]  
 
   redmine:
     image: redmine
