@@ -55,7 +55,7 @@ services:
     health_check:
       healthy_threshold: 2
       response_timeout: 5000
-      port: 23456
+      port: 49876
       unhealthy_threshold: 3
       interval: 5000
       strategy: recreate
