@@ -18,6 +18,8 @@ services:
 
   redmine:
     image: redmine
+    labels:
+      io.rancher.container.hostname_override: container_name
     ports:
       - '23456:3000'
     environment:
