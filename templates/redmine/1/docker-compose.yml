@@ -1,5 +1,27 @@
 version: '2'
 services:
+  db:
+    restart: always
+    image: mariadb:10.2
+    ports:
+      - "49876:3306"
+    volumes:
+      - /WORK/data/redmine:/var/lib/mysql
+    labels:
+      io.rancher.container.pull_image: always
+    environment:
+    - MYSQL_USER=redmine
+    - MYSQL_PASSWORD=${DB_PASS}
+    - MYSQL_ROOT_PASSWORD=${DB_PASS}
+    - MYSQL_DATABASE=redmine_production
+#volumes:
+#  redminedata:
+#    driver: ${VOLUME_DRIVER}
+#  redminelog:
+#    driver: ${VOLUME_DRIVER}
+#  redminedbdata:
+#    driver: ${VOLUME_DRIVER}
+
   redmine:
     image: sameersbn/redmine:3.3.2-1
     ports: 
@@ -30,24 +52,3 @@ services:
       - /WORK/logs/redmine:/var/log/redmine    
 #      - redminedata:/home/redmine/data
 #      - redminelog:/var/log/redmine
-  db:
-    restart: always
-    image: mariadb:10.2
-    ports:
-      - "29876:3306"
-    volumes:
-      - /WORK/data/redmine:/var/lib/mysql
-    labels:
-      io.rancher.container.pull_image: always
-    environment:
-    - MYSQL_USER=redmine
-    - MYSQL_PASSWORD=${DB_PASS}
-    - MYSQL_ROOT_PASSWORD=${DB_PASS}
-    - MYSQL_DATABASE=redmine_production
-#volumes:
-#  redminedata:
-#    driver: ${VOLUME_DRIVER}
-#  redminelog:
-#    driver: ${VOLUME_DRIVER}
-#  redminedbdata:
-#    driver: ${VOLUME_DRIVER}
