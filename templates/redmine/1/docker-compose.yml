@@ -14,7 +14,7 @@ services:
 #      traefik.port: 80
 #      traefik.port: 45678  
     environment:
-    - REDMINE_PORT=21234
+#    - REDMINE_PORT=21234
 #    - PORT=80
 #    - TZ=${TZ}
     - DB_PASS=${DB_PASS}
@@ -33,6 +33,8 @@ services:
   db:
     restart: always
     image: mariadb:10.2
+    ports:
+      - "29876:3306"
     volumes:
       - /WORK/data/redmine:/var/lib/mysql
     labels:
