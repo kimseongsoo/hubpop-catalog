@@ -3,7 +3,7 @@ services:
   redmine:
     image: redmine
     ports:
-    - '23456:3000'
+    - '45678:3000'
     labels:
       io.rancher.container.hostname_override: container_name
       io.rancher.container.pull_image: always
@@ -13,12 +13,13 @@ services:
     - REDMINE_DB_PASSWORD=redmine
     - REDMINE_DB_DATABASE=redmine
     volumes:
-      - /WORK/srv/redmine:/home/redmine/data
+#      - /WORK/srv/redmine:/home/redmine/data
+      - /WORK/srv/redmine:/usr/src/redmine
       - /WORK/logs/redmine:/var/log/redmine
   dbredmine:
     image: mysql:5.7
     ports:
-    - '29876:3306'
+    - '49876:3306'
     volumes:
       - /WORK/db/redmine:/var/lib/mysql
     labels:
@@ -27,5 +28,6 @@ services:
     - MYSQL_ROOT_PASSWORD=redmine
     - MYSQL_DATABASE=redmine
     - MYSQL_USER=redmine
-    - MYSQL_PASSWORD=redmine    
+    - MYSQL_PASSWORD=redmine
+    command: ["--character-set-server=utf8", "--collation-server=utf8_unicode_ci"] 
     
