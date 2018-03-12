@@ -13,7 +13,7 @@ services:
       MYSQL_USER: redmine
       MYSQL_PASSWORD: redmine
     volumes:
-      - '/WORK/data/redmine/db:/var/lib/mysql'
+      - /WORK/data/redmine/db:/var/lib/mysql
     command: ["--character-set-server=utf8", "--collation-server=utf8_unicode_ci"]  
 
   redmine:
@@ -26,9 +26,9 @@ services:
       REDMINE_DB_PASSWORD: redmine
       REDMINE_DB_DATABASE: redmine
     volumes:
-      - '/WORK/srv/redmine/plugins:/usr/src/redmine/plugins'
-      - '/WORK/srv/redmine/themes:/usr/src/redmine/public/themes'
-      - '/WORK/srv/redmine/files:/usr/src/redmine/files'
+      - /WORK/srv/redmine/plugins:/usr/src/redmine/plugins
+      - /WORK/srv/redmine/themes:/usr/src/redmine/public/themes
+      - /WORK/srv/redmine/files:/usr/src/redmine/files
     #depends_on:
     # - db_redmine
     restart: always
