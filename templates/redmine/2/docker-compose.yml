@@ -14,8 +14,8 @@ services:
 
   redmine:
     image: sameersbn/redmine:3.4.4-2
-    depends_on:
-    - mysql
+#    depends_on:
+#    - mysql
     environment:
     - TZ=Asia/Korea
 
