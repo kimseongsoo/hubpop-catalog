@@ -29,6 +29,4 @@ services:
       - /WORK/srv/redmine/plugins:/usr/src/redmine/plugins
       - /WORK/srv/redmine/themes:/usr/src/redmine/public/themes
       - /WORK/srv/redmine/files:/usr/src/redmine/files
-    #depends_on:
-    # - db_redmine
     restart: always
