@@ -4,7 +4,7 @@
   description: ""
   uuid: context-broker-1
 
-adminer:
+cb:
   scale: 1
   health_check:
     port: 28810
