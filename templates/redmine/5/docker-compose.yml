@@ -1,0 +1,33 @@
+version: '2'
+services:
+  redmine:
+    image: redmine
+    ports:
+    - '23456:3000'
+    labels:
+      io.rancher.container.hostname_override: container_name
+      io.rancher.container.pull_image: always
+    environment:
+    - REDMINE_DB_MYSQL=dbredmine
+    - REDMINE_DB_USERNAME=redmine
+    - REDMINE_DB_PASSWORD=redmine
+    - REDMINE_DB_DATABASE=redmine
+    - REDMINE_DB_ENCODING=utf8
+    volumes:
+      - /WORK/srv/redmine/plugins:/usr/src/redmine/plugins
+      - /WORK/srv/redmine/themes:/usr/src/redmine/public/themes
+      - /WORK/srv/redmine/files:/usr/src/redmine/files
+  dbredmine:
+    image: mariadb:latest
+    ports:
+    - '29876:3306'
+    volumes:
+      - /WORK/db/redmine:/var/lib/mysql
+    labels:
+      io.rancher.container.pull_image: always
+    environment:
+    - MYSQL_ROOT_PASSWORD=redmine
+    - MYSQL_DATABASE=redmine
+#    - MYSQL_USER=redmine
+#    - MYSQL_PASSWORD=redmine
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
