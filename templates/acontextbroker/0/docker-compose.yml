@@ -5,5 +5,5 @@ services:
   cb:
     image: '112.160.104.138:21112/context_broker'
     ports:
-     - '28810:8080'
+     - '28810:48810'
     container_name: context-broker
