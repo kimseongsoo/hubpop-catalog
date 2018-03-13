@@ -3,7 +3,7 @@ version: '2'
 services:
 
   cb:
-    image: '112.160.104.138:21112/docker_build_test'
+    image: '112.160.104.138:21112/context_broker'
     ports:
      - '28810:8080'
     container_name: context-broker
