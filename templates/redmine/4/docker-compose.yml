@@ -18,7 +18,7 @@ services:
     command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
     
   redmine:
-    image: redmine
+    image: redmine:3.4.4
     ports:
     - '23456:3000'
     labels:

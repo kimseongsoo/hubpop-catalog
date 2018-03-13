@@ -5,30 +5,30 @@ catalog:
   description: |
     Redmine
   questions:
-  - variable: "REDMINE_HOST"
-    description: "Hostname to use for the Redmine"
-    label: "Thalhalla Store Hostname"
-    required: true
-    default: "redmine"
-    type: "string"
-  - variable: "REDMINE_DOMAIN"
-    description: "Domain to use for the Redmine server"
-    label: "REDMINE Domain"
-    required: true
-    default: ""
-    type: "string"
+#  - variable: "REDMINE_HOST"
+#    description: "Hostname to use for the Redmine"
+#    label: "Thalhalla Store Hostname"
+#    required: true
+#    default: "redmine"
+#    type: "string"
+#  - variable: "REDMINE_DOMAIN"
+#    description: "Domain to use for the Redmine server"
+#    label: "REDMINE Domain"
+#    required: true
+#    default: ""
+#    type: "string"
 #  - variable: "TZ"
 #    description: "Timezone to use for the server"
 #    label: "Timezone"
 #    required: true
 #    default: "America/Chicago"
 #    type: "string"
-  - variable: "DB_PASS"
-    description: "Database Password to use for the server"
-    label: "DB Password"
-    required: true
-    default: ""
-    type: "password"
+#  - variable: "DB_PASS"
+#    description: "Database Password to use for the server"
+#    label: "DB Password"
+#    required: true
+#    default: ""
+#    type: "password"
 #  - variable: "REDMINE_SECRET_TOKEN"
 #    description: "REDMINE_SECRET_TOKEN"
 #    label: "REDMINE_SECRET_TOKEN"
