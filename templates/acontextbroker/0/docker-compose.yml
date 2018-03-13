@@ -1,3 +1,5 @@
 adminer:
   image: '112.160.104.138:21112/context-broker-demo'
+  ports:
+  - '28810:48810'
   restart: on-failure
