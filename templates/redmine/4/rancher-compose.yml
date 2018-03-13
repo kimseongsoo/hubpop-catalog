@@ -3,7 +3,7 @@ catalog:
   name: Redmine
   version: 0.1.6
   description: |
-    정상동작 버전 Redmine
+    Redmine
   questions:
   - variable: "REDMINE_HOST"
     description: "Hostname to use for the Redmine"
