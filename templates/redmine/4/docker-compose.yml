@@ -12,7 +12,7 @@ services:
     - REDMINE_DB_USERNAME=redmine
     - REDMINE_DB_PASSWORD=redmine
     - REDMINE_DB_DATABASE=redmine
-    - REDMINE_DB_ENCODING=utf8
+    - REDMINE_DB_ENCODING=utf-8
     volumes:
       - /WORK/srv/redmine/plugins:/usr/src/redmine/plugins
       - /WORK/srv/redmine/themes:/usr/src/redmine/public/themes
