@@ -2,8 +2,8 @@ version: '2'
 catalog:
   name: Redmine
   version: 0.1.7
-  description: 수정이 필요한 버전
-    Redmine
+  description: | 
+    수정이 필요한 버전 Redmine
   questions:
 #  - variable: "REDMINE_HOST"
 #    description: "Hostname to use for the Redmine"
