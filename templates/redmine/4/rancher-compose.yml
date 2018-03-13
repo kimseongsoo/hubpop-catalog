@@ -2,7 +2,7 @@ version: '2'
 catalog:
   name: Redmine
   version: 0.1.6
-  description: |
+  description: 정상동작 버전
     Redmine
   questions:
   - variable: "REDMINE_HOST"
