@@ -28,6 +28,6 @@ services:
     environment:
     - MYSQL_ROOT_PASSWORD=redmine
     - MYSQL_DATABASE=redmine
-#    - MYSQL_USER=redmine
-#    - MYSQL_PASSWORD=redmine
+    - MYSQL_USER=redmine
+    - MYSQL_PASSWORD=redmine
     command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
