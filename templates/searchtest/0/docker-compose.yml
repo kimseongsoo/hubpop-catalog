@@ -3,7 +3,7 @@ version: '2'
 services:
 
   apigw:
-    image: '112.160.104.138:21112/search_test:1.0'
+    image: '112.160.104.138:21112/search_test:3.0'
     ports:
      - "21234:8080"
 #    container_name: context-broker
