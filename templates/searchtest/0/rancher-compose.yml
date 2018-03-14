@@ -4,7 +4,7 @@
   description: "Add Text"
   uuid: search-1
 
-apigw:
+search:
   scale: 1
 #  health_check:
 #    port: 28810
