@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  apigw:
+    image: '112.160.104.138:21112/api_gateway:1.0'
+    ports:
+     - "28095:28095"
+#    container_name: context-broker
