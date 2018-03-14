@@ -1,0 +1,15 @@
+.catalog:
+  name: "Search"
+  version: "v1"
+  description: "Add Text"
+  uuid: search-1
+
+apigw:
+  scale: 1
+#  health_check:
+#    port: 28810
+#    interval: 3000
+#    unhealthy_threshold: 2
+#    healthy_threshold: 2
+#    response_timeout: 2000
+#    request_line: 'GET "/" "HTTP/1.0"'
