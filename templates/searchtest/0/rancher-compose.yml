@@ -5,7 +5,7 @@
   uuid: search-1
 
 search:
-  scale: 1
+  scale: 2
 #  health_check:
 #    port: 28810
 #    interval: 3000
