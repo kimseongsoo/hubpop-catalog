@@ -4,6 +4,6 @@ services:
 
   cb:
     image: '112.160.104.138:21112/eureka:1.0'
-#    ports:
-#     - '28810:48810'
+    ports:
+     - "28761:28761"
 #    container_name: context-broker
