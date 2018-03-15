@@ -1,7 +1,7 @@
 jenkins-primary:
   image: "jenkins/jenkins:2.92"
   ports:
-    - "${PORT}:8087"
+    - "${PORT}:8080"
   labels:
     io.rancher.sidekicks: jenkins-plugins,jenkins-datavolume
     io.rancher.container.hostname_override: container_name
