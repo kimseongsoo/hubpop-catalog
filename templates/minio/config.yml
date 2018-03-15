@@ -6,3 +6,5 @@ category: Storage
 maintainer: "Matthias Schneider <ms@wck.biz>"
 license: Apache License
 projectURL: https://minio.io/
+labels:
+  io.rancher.certified: Hubpop

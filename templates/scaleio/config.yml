@@ -3,3 +3,5 @@ description: |
     ScaleIO NAS/DAS Store
 version: v0.1
 category: External Services
+labels:
+  io.rancher.certified: Hubpop

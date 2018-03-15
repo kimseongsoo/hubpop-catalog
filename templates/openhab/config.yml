@@ -5,3 +5,5 @@ category: Automation
 license: Eclipse Public License 1.0
 projectURL: https://www.openhab.org
 
+labels:
+  io.rancher.certified: Hubpop

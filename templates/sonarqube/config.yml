@@ -3,3 +3,5 @@ description: |
   SonarQube - an open source quality management platform.
 version: v6.7
 category: Test Automation
+labels:
+  io.rancher.certified: Hubpop
