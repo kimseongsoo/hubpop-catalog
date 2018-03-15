@@ -28,9 +28,9 @@ services:
     environment:
       - SERVICE_UID=0
       - SERVICE_GID=0
-      - SERVICE_VOLUME=/var/lib/influxdb
+      - SERVICE_VOLUME=/WORK/influxdb
     volumes:
-      - /var/lib/influxdb
+      - /WORK/influxdb
     volume_driver: local
     image: rawmind/alpine-volume:0.0.2-1
 
