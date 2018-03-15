@@ -1,7 +1,7 @@
 jenkins-primary:
   image: "jenkins/jenkins:2.92"
   ports:
-    - "${PORT}:8080"
+    - "${PORT}:8087"
   labels:
     io.rancher.sidekicks: jenkins-plugins,jenkins-datavolume
     io.rancher.container.hostname_override: container_name
@@ -14,7 +14,7 @@ jenkins-plugins:
 jenkins-datavolume:
   image: "busybox"
   volumes:
-    - ${volume_work}:/var/jenkins_home
+    - ${volume_work}:/WORK/jenkins_home
   labels:
     io.rancher.container.start_once: true
-  entrypoint: ["chown", "-R", "1000:1000", "/var/jenkins_home"]
+  entrypoint: ["chown", "-R", "1000:1000", "/WORK/jenkins_home"]

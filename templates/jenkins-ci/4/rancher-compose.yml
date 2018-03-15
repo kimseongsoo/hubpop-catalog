@@ -8,13 +8,13 @@
     type: "int"
     label: "Port Number"
     description: "Which port should Jenkins listen on?"
-    default: 8080
+    default: 8087
     required: true
   - variable: "volume_work"
     description: "Work volume to save jenkins data"
     label: "Work volume:"
     required: true
-    default: "/var/lib/docker/jenkins-ci"
+    default: "/WORK/jenkins-ci"
     type: "string"
   - variable: "plugins"
     type: "multiline"
