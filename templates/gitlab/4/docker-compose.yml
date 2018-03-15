@@ -11,15 +11,15 @@ services:
   gitlab-server:
     ports:
       - ${ssh_port}:22/tcp
-      - ${http_port}:80/tcp
-      - ${https_port}:443/tcp
+      - ${http_port}:28080/tcp
+#     - ${https_port}:443/tcp
     labels:
       io.rancher.container.hostname_override: container_name
     image: gitlab/gitlab-ce:9.5.10-ce.0
     volumes:
-      - gitlab-app-data:/var/opt/gitlab
-      - gitlab-log-data:/var/log/gitlab
-      - gitlab-conf-files:/etc/gitlab
+      - gitlab-app-data:/WORK/gitlab
+      - gitlab-log-data:/WORK/logs/gitlab/
+      - gitlab-conf-files:/WORK/gitlab/conf
     environment:
       GITLAB_OMNIBUS_CONFIG: |
         external_url '${gitlab_omnipus_prefix}${gitlab_hostname}'
