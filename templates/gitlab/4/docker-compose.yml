@@ -12,7 +12,7 @@ services:
     ports:
       - ${ssh_port}:22/tcp
       - ${http_port}:28080/tcp
-#     - ${https_port}:443/tcp
+      - ${https_port}:443/tcp
     labels:
       io.rancher.container.hostname_override: container_name
     image: gitlab/gitlab-ce:9.5.10-ce.0
