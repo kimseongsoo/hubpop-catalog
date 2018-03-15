@@ -5,3 +5,5 @@ version: v0.0.2
 category: Platform
 license: MIT
 projectURL: https://github.com/alexellis/faas
+labels:
+  io.rancher.certified: Hubpop

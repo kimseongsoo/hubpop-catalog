@@ -6,3 +6,5 @@ category: Load Balancing
 maintainer: "Raul Sanchez <rawmind@gmail.com>"
 license:
 projectURL: https://github.com/rawmind0/alpine-traefik
+labels:
+  io.rancher.certified: Hubpop

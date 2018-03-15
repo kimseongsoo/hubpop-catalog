@@ -7,3 +7,5 @@ maintainer: "William Jimenez <wjimenez5271@gmail.com>"
 minimum_rancher_version: v1.5.0
 license: Apache License 2.0
 projectURL: https://github.com/wjimenez5271/rancher-iron-functions
+labels:
+  io.rancher.certified: Hubpop

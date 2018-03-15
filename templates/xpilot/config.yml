@@ -4,4 +4,5 @@ description: |
 version: v0.1
 category: Entertainment
 maintainer: Steve Shipway <s.shipway@auckland.ac.nz>
-
+labels:
+  io.rancher.certified: Hubpop

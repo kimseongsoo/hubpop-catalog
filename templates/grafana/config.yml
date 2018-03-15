@@ -2,3 +2,5 @@ name: "Grafana"
 description: "Visualization dashboard"
 version: "4.2.0-rancher2"
 category: Monitoring
+labels:
+  io.rancher.certified: Hubpop

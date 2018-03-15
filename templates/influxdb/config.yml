@@ -5,3 +5,5 @@ version: 1.2.2-rancher1
 category: Databases
 maintainer: "Raul Sanchez <rawmind@gmail.com>"
 license: 
+labels:
+  io.rancher.certified: Hubpop

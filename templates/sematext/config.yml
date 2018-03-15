@@ -5,3 +5,5 @@ version: 1.29.44
 category: Monitoring
 maintainer: "Sematext Group Inc. <docker@sematext.com>"
 license: APACHE 2.0
+labels:
+  io.rancher.certified: Hubpop

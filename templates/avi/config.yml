@@ -4,4 +4,4 @@ description: |
 version: v1-Avi
 category: Load Balancing
 labels:
-  io.rancher.certified: Hubpop
+  io.rancher.certified: Hubpop  

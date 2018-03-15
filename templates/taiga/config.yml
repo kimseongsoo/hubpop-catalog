@@ -3,3 +3,5 @@ description: |
   Project management platform for agile developers
 version: v0.3
 category: Agile
+labels:
+  io.rancher.certified: Hubpop

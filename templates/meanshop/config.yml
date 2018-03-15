@@ -3,3 +3,5 @@ description: |
   Ecommerce powered by Meanshop
 version: 0.4.9
 category: Repository
+labels:
+  io.rancher.certified: Hubpop

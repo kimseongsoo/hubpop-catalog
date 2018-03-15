@@ -5,3 +5,5 @@ version: 2.0.1
 category: Backup
 maintainer: "Sebastien Langoureaux <linuxworkgroup@gmail.com>"
 license: MIT License
+labels:
+  io.rancher.certified: Hubpop

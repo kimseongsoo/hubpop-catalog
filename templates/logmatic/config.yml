@@ -6,3 +6,5 @@ version: "1.0"
 category: Logging
 maintainer: "Remi Cattiau <remi@cattiau.com>"
 license: The MIT License
+labels:
+  io.rancher.certified: Hubpop

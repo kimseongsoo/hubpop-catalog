@@ -4,3 +4,5 @@ description: |
 version: 1.0-0
 category: Networking
 maintainer: Alexis Ducastel <alexis@ducastel.net>
+labels:
+  io.rancher.certified: Hubpop
