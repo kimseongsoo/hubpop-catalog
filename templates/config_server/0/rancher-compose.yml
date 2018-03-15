@@ -1,10 +1,10 @@
 .catalog:
   name: "Config Server"
   version: "v1"
-  description: "한전 API 게이트웨이 Config Server"
+  description: "Config Server"
   uuid: config_server-1
 
-eureka:
+config_server:
   scale: 1
 #  health_check:
 #    port: 28810
