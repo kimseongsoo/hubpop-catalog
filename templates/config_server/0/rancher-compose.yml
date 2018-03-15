@@ -1,0 +1,15 @@
+.catalog:
+  name: "Config Server"
+  version: "v1"
+  description: "한전 API 게이트웨이 Config Server"
+  uuid: config_server-1
+
+eureka:
+  scale: 1
+#  health_check:
+#    port: 28810
+#    interval: 3000
+#    unhealthy_threshold: 2
+#    healthy_threshold: 2
+#    response_timeout: 2000
+#    request_line: 'GET "/" "HTTP/1.0"'

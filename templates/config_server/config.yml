@@ -1,0 +1,7 @@
+name: 6 Config Server
+description: |
+  한전 API 게이트웨이 Config Server 
+version: v1
+category: Applications
+maintainer: Inha, Park <darklinn@ntels.com>
+
