@@ -6,3 +6,5 @@ category: Agile
 maintainer: "Raul Sanchez <rawmind@gmail.com>"
 license: 
 projectURL: https://github.com/rawmind0/cloud9-sdk
+labels:
+  io.rancher.certified: Hubpop

@@ -4,4 +4,5 @@ description: |
 version: v1
 category: Applications
 maintainer: Tomas Holcman <tomas.holcman@gmail.com>
-
+labels:
+  io.rancher.certified: Hubpop

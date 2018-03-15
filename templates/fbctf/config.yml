@@ -5,3 +5,5 @@ version: 0.1-beta-rancher1
 category: Applications
 maintainer: "Lobsiinvok Su <lobsiinvok@tdohacker.org>"
 license: CC BY-NC 4.0
+labels:
+  io.rancher.certified: Hubpop

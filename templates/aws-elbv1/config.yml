@@ -3,3 +3,5 @@ description: |
   External LB service powered by AWS Elastic Load Balancing
 version: v0.3.3-rancher1
 category: Load Balancing
+labels:
+  io.rancher.certified: Hubpop

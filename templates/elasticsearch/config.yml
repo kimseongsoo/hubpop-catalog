@@ -3,3 +3,5 @@ description: |
   Elasticsearch, you know for search!
 version: 1.7.3-rancher1
 category: ELK
+labels:
+  io.rancher.certified: Hubpop

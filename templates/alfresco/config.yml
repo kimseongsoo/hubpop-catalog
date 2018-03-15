@@ -3,3 +3,5 @@ description: |
   An ECM and BPM platform.
 version: 5.1.0-201605-GA
 category: ECM
+labels:
+  io.rancher.certified: Hubpop

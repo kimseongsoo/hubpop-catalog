@@ -6,3 +6,5 @@ category: Shipper
 maintainer: "Eason Lau <eason.lau02@hotmail.com>"
 license: MIT
 projectURL: https://github.com/easonlau02/filebeat-alpine
+labels:
+  io.rancher.certified: Hubpop

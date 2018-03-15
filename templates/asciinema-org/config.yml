@@ -4,3 +4,5 @@ description: |
 version: 0.1-rancher1
 category: Applications
 license: AGPL v3
+labels:
+  io.rancher.certified: Hubpop

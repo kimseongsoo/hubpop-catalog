@@ -3,3 +3,5 @@ description: |
     Drone CI Server
 version: 0.8.2-rancher1
 category: Continuous Integration
+labels:
+  io.rancher.certified: Hubpop
