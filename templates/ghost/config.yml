@@ -3,3 +3,5 @@ description: |
   Blog powered by Ghost
 version: v0.1-educaas
 category: Blogging
+labels:
+  io.rancher.certified: Hubpop

@@ -2,3 +2,5 @@ name: "Kibana 4"
 description: "Visualization dashboard"
 version: "4.6.3-rancher1"
 category: ELK
+labels:
+  io.rancher.certified: Hubpop

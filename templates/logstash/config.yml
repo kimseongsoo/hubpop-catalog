@@ -3,3 +3,5 @@ description: |
   Centralize data processing of all types
 version: 5.1.1-rancher1
 category: ELK
+labels:
+  io.rancher.certified: Hubpop

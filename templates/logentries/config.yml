@@ -5,3 +5,5 @@ version: "0.2.1"
 category: Logging
 maintainer: "Nick Haynes <nick.t.haynes@gmail.com>"
 license: The MIT License
+labels:
+  io.rancher.certified: Hubpop

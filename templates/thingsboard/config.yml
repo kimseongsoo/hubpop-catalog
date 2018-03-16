@@ -3,3 +3,5 @@ description: |
   An open source IoT platform
 version: v0.1
 category: IoT
+labels:
+  io.rancher.certified: Hubpop

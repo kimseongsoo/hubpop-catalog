@@ -5,3 +5,5 @@ version: v1.0.0-compat
 category: Message queues
 maintainer: "Matthias Schneider <ms@wck.biz>"
 projectURL: https://nsq.io/
+labels:
+  io.rancher.certified: Hubpop

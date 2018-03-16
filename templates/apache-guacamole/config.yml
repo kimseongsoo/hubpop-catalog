@@ -6,3 +6,5 @@ category: Applications
 license: 
 maintainer: "Kevin Xu <accoleon@gmail.com>"
 projectURL: https://github.com/glyptodon/guacamole-docker
+labels:
+  io.rancher.certified: Hubpop

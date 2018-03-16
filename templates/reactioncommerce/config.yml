@@ -3,3 +3,5 @@ description: |
   E-commerce powered by Reaction
 version: 1.4.0-rancher1
 category: Repository
+labels:
+  io.rancher.certified: Hubpop

@@ -5,3 +5,5 @@ version: 1.1.1-11.0.5140
 category: Monitoring
 maintainer: "Jan Bruder <jan@rancher.com>"
 license: The MIT License
+labels:
+  io.rancher.certified: Hubpop

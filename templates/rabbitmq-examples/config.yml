@@ -5,3 +5,5 @@ version: 3.6-rancher1
 category: Message queues
 maintainer: "Josh Cox <josh@webhosting.coop>"
 minimum_rancher_version: v0.59.0
+labels:
+  io.rancher.certified: Hubpop

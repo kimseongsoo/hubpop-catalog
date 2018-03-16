@@ -3,3 +3,5 @@ description: |
   MongoDB Replica Set.
 version: "3.4-rancher1"
 category: Databases
+labels:
+  io.rancher.certified: Hubpop

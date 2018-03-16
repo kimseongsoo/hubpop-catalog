@@ -3,3 +3,5 @@ description: |
   Infra as a code by your own packages. http://zinst.me
 version: 7.0.5
 category: DevOps
+labels:
+  io.rancher.certified: Hubpop

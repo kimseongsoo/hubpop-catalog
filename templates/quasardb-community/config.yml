@@ -6,3 +6,5 @@ category: Databases
 maintainer: Alexis Ducastel <alexis@ducastel.net>
 projectURL: https://www.quasardb.net
 
+labels:
+  io.rancher.certified: Hubpop

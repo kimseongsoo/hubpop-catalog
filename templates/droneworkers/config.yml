@@ -4,3 +4,5 @@ description: |
 version: 0.1.0-cloudnautique1
 category: Continuous Integration
 minimum_rancher_version: v0.56.0
+labels:
+  io.rancher.certified: Hubpop

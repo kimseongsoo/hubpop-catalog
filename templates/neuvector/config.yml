@@ -4,3 +4,5 @@ description: |
 version: rancher1.3
 category: Security
 maintainer: neuvector support <support@neuvector.com>
+labels:
+  io.rancher.certified: Hubpop

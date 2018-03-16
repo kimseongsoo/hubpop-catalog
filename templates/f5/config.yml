@@ -3,3 +3,5 @@ description: |
   Rancher External LB service powered by F5 BIG-IP
 version: v0.1.1-rancher1
 category: Load Balancing
+labels:
+  io.rancher.certified: Hubpop

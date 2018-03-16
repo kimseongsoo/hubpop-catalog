@@ -6,3 +6,5 @@ category: Continuous Integration
 maintainer: "Raul Sanchez <rawmind@gmail.com>"
 minimum_rancher_version: v0.59.0
 license: 
+labels:
+  io.rancher.certified: Hubpop

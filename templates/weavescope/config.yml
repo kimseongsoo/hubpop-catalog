@@ -5,3 +5,5 @@ category: Monitoring
 maintainer: "Ilya Dmitrichenko <ilya@weave.works>"
 license: "Apache License v2.0"
 projectURL: https://github.com/weaveworks/scope
+labels:
+  io.rancher.certified: Hubpop

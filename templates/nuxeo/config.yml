@@ -4,3 +4,5 @@ description: |
   Platform for Business Applications
 version: 8.1-rancher1
 category: ECM
+labels:
+  io.rancher.certified: Hubpop

@@ -6,3 +6,5 @@ category: Monitoring
 maintainer: "William Jimenez <william@rancher.com>"
 license: Apache 2.0
 projectURL: https://github.com/wjimenez5271/cowcheck
+labels:
+  io.rancher.certified: Hubpop

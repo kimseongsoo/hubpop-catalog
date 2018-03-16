@@ -3,3 +3,5 @@ description: |
   Container-Native Application and Infrastructure Monitoring
 version: v1
 category: Rancher Services
+labels:
+  io.rancher.certified: Hubpop

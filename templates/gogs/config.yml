@@ -3,3 +3,5 @@ description: |
     A painless self-hosted Git service
 version: v0.11.34
 category: Git
+labels:
+  io.rancher.certified: Hubpop

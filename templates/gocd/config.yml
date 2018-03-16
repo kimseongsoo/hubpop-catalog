@@ -6,3 +6,5 @@ category: Continuous Integration
 maintainer: "Sebastien Langoureaux <linuxworkgroup@gmail.com>"
 license: Apache License
 projectURL: https://www.gocd.io/
+labels:
+  io.rancher.certified: Hubpop

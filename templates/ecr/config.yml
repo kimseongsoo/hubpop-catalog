@@ -4,3 +4,5 @@ description: |
 version: v1.1.0
 category: Applications
 maintainer: John Engelman <john.engelman@objectpartners.com>
+labels:
+  io.rancher.certified: Hubpop

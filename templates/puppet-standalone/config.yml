@@ -6,3 +6,5 @@ category: Configuration Management
 maintainer: Nathan Valentine <nathan@rancher.com>
 license: Apache 2
 projectURL: https://github.com/rancher/community-catalog/templates/puppet-standalone
+labels:
+  io.rancher.certified: Hubpop

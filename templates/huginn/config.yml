@@ -6,3 +6,5 @@ category: Automation
 license: MIT
 maintainer: "Kapono Haws <zicklag@katharostech.com>"
 projectURL: https://github.com/huginn/huginn/
+labels:
+  io.rancher.certified: Hubpop

@@ -10,7 +10,7 @@ services:
     image: {{$jenkinsMasterImage}}
     restart: always
     environment:
-      - JENKINS_SLAVE_AGENT_PORT=50000
+      - JENKINS_SLAVE_AGENT_PORT=60000
       - JENKINS_HOME=/var/jenkins_home
     volumes_from:
       - jenkins-boot

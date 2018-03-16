@@ -3,3 +3,5 @@ description: |
   Aqua Container Security Platform
 version: 2.6.4
 category: Security
+labels:
+  io.rancher.certified: Hubpop

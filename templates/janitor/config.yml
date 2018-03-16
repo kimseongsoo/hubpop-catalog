@@ -5,3 +5,5 @@ version: v1.7.1
 category: Monitoring
 maintainer: Steve Shipway <s.shipway@auckland.ac.nz>
 
+labels:
+  io.rancher.certified: Hubpop

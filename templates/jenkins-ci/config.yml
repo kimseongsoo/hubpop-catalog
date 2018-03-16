@@ -3,3 +3,5 @@ description: |
   Jenkins CI server (LTS)
 version: 2.92-rancher1
 category: Continuous Integration
+labels:
+  io.rancher.certified: Hubpop

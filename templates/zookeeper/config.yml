@@ -6,3 +6,5 @@ category: Clustering
 maintainer: "Raul Sanchez <rawmind@gmail.com>"
 projectURL: https://github.com/rawmind0/alpine-zk
 license: 
+labels:
+  io.rancher.certified: Hubpop
