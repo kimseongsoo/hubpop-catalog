@@ -4,7 +4,7 @@
   description: "Turbine Server"
   uuid: turbine-server-1
 
-turbine_server:
+turbineserver:
   scale: 1
 #  health_check:
 #    port: 28810
