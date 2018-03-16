@@ -8,7 +8,7 @@
       description: "http port to access Grafana"
       label: "Http Port"
       required: true
-      default: "3000"
+      default: "30000"
       type: "int"
     - variable: admin_username
       description: "Grafana admin username"
