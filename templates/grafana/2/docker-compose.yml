@@ -1,7 +1,7 @@
 grafana:
     image: grafana/grafana:4.2.0
     ports:
-        - ${http_port}:30000
+        - ${http_port}:3000
     environment:
         GF_SECURITY_ADMIN_USER: ${admin_username}
         GF_SECURITY_ADMIN_PASSWORD: ${admin_password}
