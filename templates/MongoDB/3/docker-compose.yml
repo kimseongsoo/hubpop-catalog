@@ -37,7 +37,7 @@ services:
       io.rancher.container.hostname_override: container_name
       io.rancher.container.start_once: true
     volumes:
-      - mongodata:/data/db
+      - mongodata:/WORK/mongo/data/db
     entrypoint: /bin/true
     image: busybox
 volumes:
