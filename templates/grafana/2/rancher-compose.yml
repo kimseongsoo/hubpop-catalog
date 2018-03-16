@@ -20,7 +20,7 @@
       description: "Grafana admin password"
       label: "Admin Password"
       required: true
-      default: "password"
+      default: "admin"
       type: "string"
     - variable: secret_key
       description: "Signing secret key"
