@@ -1,0 +1,15 @@
+.catalog:
+  name: "Config Server"
+  version: "v1"
+  description: "Config Server"
+  uuid: config_server-1
+
+config_server:
+  scale: 1
+#  health_check:
+#    port: 28810
+#    interval: 3000
+#    unhealthy_threshold: 2
+#    healthy_threshold: 2
+#    response_timeout: 2000
+#    request_line: 'GET "/" "HTTP/1.0"'
