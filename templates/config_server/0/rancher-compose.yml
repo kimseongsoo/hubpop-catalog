@@ -4,7 +4,7 @@
   description: "Config Server"
   uuid: config_server-1
 
-config_server:
+configserver:
   scale: 1
 #  health_check:
 #    port: 28810
