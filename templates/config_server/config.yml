@@ -4,4 +4,5 @@ description: |
 version: v1
 category: Applications
 maintainer: Inha, Park <darklinn@ntels.com>
-
+labels:
+  io.rancher.certified: Hubpop
