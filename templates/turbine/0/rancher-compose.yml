@@ -1,8 +1,8 @@
 .catalog:
-  name: "Turbine Server"
+  name: "TurbineServer"
   version: "v1"
   description: "Turbine Server"
-  uuid: turbine_server-1
+  uuid: turbine-server-1
 
 turbine_server:
   scale: 1
