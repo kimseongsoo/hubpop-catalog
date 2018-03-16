@@ -1,10 +1,10 @@
 .catalog:
-  name: "Config Server"
+  name: "TurbineServer"
   version: "v1"
-  description: "Config Server"
-  uuid: config_server-1
+  description: "Turbine Server"
+  uuid: turbine-server-1
 
-configserver:
+turbineserver:
   scale: 1
 #  health_check:
 #    port: 28810

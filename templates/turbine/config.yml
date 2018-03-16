@@ -1,6 +1,6 @@
-name: 6 Config Server
+name: 7 Turbine
 description: |
-  Config Server 
+  Turbine Server 
 version: v1
 category: Applications
 maintainer: Inha, Park <darklinn@ntels.com>
